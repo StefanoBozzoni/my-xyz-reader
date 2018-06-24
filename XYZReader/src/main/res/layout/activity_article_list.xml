@@ -8,7 +8,7 @@
         android:id="@+id/appbar_layout"
         android:layout_width="match_parent"
         android:layout_height="112dp"
-        android:elevation="4dp"
+        android:elevation="@dimen/appBar_default_elevation"
         android:background="?colorPrimary"
         android:fitsSystemWindows="true"
         >

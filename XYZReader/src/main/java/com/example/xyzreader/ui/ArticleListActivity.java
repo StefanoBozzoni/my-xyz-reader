@@ -102,8 +102,10 @@ public class ArticleListActivity extends AppCompatActivity  implements
     };
 
     private void updateRefreshingUI() {
-        mSwipeRefreshLayout.setEnabled( mIsRefreshing );
-        mSwipeRefreshLayout.setRefreshing(mIsRefreshing);
+        if (mSwipeRefreshLayout!=null) {
+            mSwipeRefreshLayout.setRefreshing(mIsRefreshing);
+            mSwipeRefreshLayout.setEnabled( mIsRefreshing );
+        }
     }
 
     @Override
