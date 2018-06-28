@@ -27,10 +27,8 @@
                 android:layout_marginRight="@dimen/list_toolbar_side_margin"
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
-                android:elevation="8dp"
                 app:layout_collapseMode="pin"
-                android:layout_gravity="bottom"
-                >
+                android:layout_gravity="bottom">
 
                 <ImageView
                     android:layout_width="match_parent"
