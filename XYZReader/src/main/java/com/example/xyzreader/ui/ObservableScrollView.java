@@ -18,6 +18,7 @@ package com.example.xyzreader.ui;
 
 import android.content.Context;
 import android.os.Parcelable;
+import android.support.v4.widget.NestedScrollView;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.ScrollView;
