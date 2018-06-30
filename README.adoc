@@ -1,3 +1,3 @@
-= XYZ Reader Starter Code
+= XYZ Reader (RSS feeder example)
 
 This repository stores an example of an RSS feeder
