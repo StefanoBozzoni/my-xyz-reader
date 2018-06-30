@@ -7,10 +7,10 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar_layout"
         android:layout_width="match_parent"
-        android:layout_height="112dp"
+        android:layout_height="48dp"
         android:background="?colorPrimary"
         android:fitsSystemWindows="true"
-        >
+        android:elevation="8dp">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/toolbar_container"
@@ -18,10 +18,10 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
-            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginStart="16dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlwaysCollapsed">
 
-            <android.support.v7.widget.Toolbar
+        <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_marginLeft="@dimen/list_toolbar_side_margin"
                 android:layout_marginRight="@dimen/list_toolbar_side_margin"
